@@ -22,6 +22,7 @@ export default function BodyHome4() {
                   color: '#215732',
                   fontSize: '19px',
                   letterSpacing: '5',
+                  zIndex: '2',
                 }}
               >
                 Home
@@ -82,32 +83,70 @@ export default function BodyHome4() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+      <Flex style={{ position: 'absolute', zIndex: '2', top: '330px' }}>
+        <Box p="7" bg="#215732">
+          <img src="logo.png" alt="logo" style={{ paddingRight: '15px' }}></img>
+        </Box>
+      </Flex>
+      <Flex
+        style={{
+          position: 'absolute',
+          zIndex: '2',
+          marginLeft: '1550px',
+          top: '330px',
+        }}
+      >
+        <Box p="7" bg="#215732">
+          <img
+            src="buttom.png"
+            alt="logo"
+            style={{
+              paddingRight: '20px',
+              paddingLeft: '20px',
+              paddingTop: '5px',
+              paddingBottom: '5px',
+            }}
+          ></img>
+        </Box>
+      </Flex>
+      <img
+        src="hal4.png"
+        alt="gambar"
+        style={{
+          zIndex: '1',
+          padding: '0',
+          width: '33%',
+          marginLeft: '400px',
+          top: '20px',
+          letterSpacing: '7px',
+          position: 'absolute',
+        }}
+      ></img>
       <Box
-        w="86%"
-        p={158}
+        w="87%"
+        p={125}
         color="#215732"
         style={{
           marginRight: '60px',
           marginLeft: '120px',
-          marginTop: '5px',
           backgroundColor: '#F0EEED',
-          fontWeight: '700',
+          fontWeight: '650',
           textAlign: 'center',
           letterSpacing: '4px',
-          zIndex: '999',
+          padding: '0',
         }}
       >
         <Row>
           <Col></Col>
-          <Col style={{ fontSize: '50px' }}>
-            <h6 style={{ letterSpacing: '7' }}>.04.</h6>
+          <Col style={{ fontSize: '60px', paddingTop: '120px' }}>
+            <h6 style={{ letterSpacing: '7', paddingBottom: '20px' }}>.04.</h6>
             <p
               style={{
                 paddingBottom: '30px',
                 textAlign: 'center',
-                paddingLeft: '40px',
-                paddingRight: '40px',
+                paddingLeft: '100px',
+                paddingRight: '100px',
+                marginBottom: '170px',
               }}
             >
               Unpasteurised No HPP

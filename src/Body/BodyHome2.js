@@ -82,26 +82,65 @@ export default function BodyHome2() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+      <Flex style={{ position: 'absolute', zIndex: '2', top: '330px' }}>
+        <Box p="7" bg="#215732">
+          <img src="logo.png" alt="logo" style={{ paddingRight: '15px' }}></img>
+        </Box>
+      </Flex>
+      <Flex
+        style={{
+          position: 'absolute',
+          zIndex: '2',
+          marginLeft: '1550px',
+          top: '330px',
+        }}
+      >
+        <Box p="7" bg="#215732">
+          <img
+            src="buttom.png"
+            alt="logo"
+            style={{
+              paddingRight: '20px',
+              paddingLeft: '20px',
+              paddingTop: '5px',
+              paddingBottom: '5px',
+            }}
+          ></img>
+        </Box>
+      </Flex>
       <Box
-        w="86%"
+        w="87%"
         p={7}
         color="#215732"
         style={{
           marginRight: '60px',
           marginLeft: '120px',
-          marginTop: '5px',
           backgroundColor: '#F0EEED',
-          fontWeight: '700',
+          fontWeight: '690',
           textAlign: 'center',
           letterSpacing: '4px',
           zIndex: '999',
+          padding: '0',
         }}
       >
         <Row>
-          <Col></Col>
+          <Col>
+            {' '}
+            <img
+              src="hal2.png"
+              alt="gambar"
+              style={{
+                zIndex: '1',
+                padding: '0',
+                width: '650px',
+                paddingLeft: '200px',
+                position: 'absolute',
+                top: '100px',
+              }}
+            ></img>
+          </Col>
           <Col style={{ fontSize: '50px' }}>
-            <h6 style={{ letterSpacing: '7' }}>.02.</h6>
+            <h6 style={{ letterSpacing: '7', paddingTop: '30px' }}>.02.</h6>
             <p
               style={{
                 paddingBottom: '30px',
@@ -118,6 +157,7 @@ export default function BodyHome2() {
                 textAlign: 'center',
                 paddingLeft: '150px',
                 paddingRight: '150px',
+                paddingBottom: '30px',
               }}
             >
               certified by Soil Association

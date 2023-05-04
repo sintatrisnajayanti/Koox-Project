@@ -24,7 +24,8 @@ const NavigationButtons = styled.div`
 
 const NavBtn = styled.div`
   background: white;
-  padding: 15px;
+  z-index: '0';
+
   margin-bottom: 10px;
   border-radius: 3px;
 `;

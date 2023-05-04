@@ -82,32 +82,71 @@ export default function BodyHome3() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+      <Flex style={{ position: 'absolute', zIndex: '2', top: '330px' }}>
+        <Box p="7" bg="#215732">
+          <img src="logo.png" alt="logo" style={{ paddingRight: '15px' }}></img>
+        </Box>
+      </Flex>
+      <Flex
+        style={{
+          position: 'absolute',
+          zIndex: '2',
+          marginLeft: '1550px',
+          top: '330px',
+        }}
+      >
+        <Box p="7" bg="#215732">
+          <img
+            src="buttom.png"
+            alt="logo"
+            style={{
+              paddingRight: '20px',
+              paddingLeft: '20px',
+              paddingTop: '5px',
+              paddingBottom: '5px',
+            }}
+          ></img>
+        </Box>
+      </Flex>
+      <img
+        src="hal3.png"
+        alt="gambar"
+        style={{
+          zIndex: '1',
+          padding: '0',
+          width: '35%',
+          marginLeft: '300px',
+          top: '8px',
+          letterSpacing: '7px',
+          position: 'absolute',
+        }}
+      ></img>
       <Box
-        w="86%"
-        p={158}
+        w="87%"
+        p={30}
         color="#215732"
         style={{
           marginRight: '60px',
           marginLeft: '120px',
-          marginTop: '5px',
           backgroundColor: '#F0EEED',
-          fontWeight: '700',
+          fontWeight: '650',
           textAlign: 'center',
           letterSpacing: '4px',
           zIndex: '999',
+          padding: '0',
         }}
       >
         <Row>
           <Col></Col>
-          <Col style={{ fontSize: '50px' }}>
-            <h6 style={{ letterSpacing: '7' }}>.03.</h6>
+          <Col style={{ fontSize: '60px', paddingTop: '120px' }}>
+            <h6 style={{ letterSpacing: '7', paddingBottom: '20px' }}>.03.</h6>
             <p
               style={{
                 paddingBottom: '30px',
                 textAlign: 'center',
-                paddingLeft: '180px',
-                paddingRight: '180px',
+                paddingLeft: '200px',
+                paddingRight: '200px',
+                marginBottom: '170px',
               }}
             >
               cold pressed
@@ -130,6 +169,7 @@ export default function BodyHome3() {
             fontSize: '19px',
             fontWeight: '600',
             letterSpacing: '2px',
+            zIndex: '2',
           }}
         >
           &copy; 2021 Dark Points Network LTD • Credits • Legals

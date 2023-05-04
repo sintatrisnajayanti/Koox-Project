@@ -82,21 +82,59 @@ export default function BodyHome() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+      <Flex style={{ position: 'absolute', zIndex: '2', top: '330px' }}>
+        <Box p="7" bg="#215732">
+          <img src="logo.png" alt="logo" style={{ paddingRight: '15px' }}></img>
+        </Box>
+      </Flex>
+      <Flex
+        style={{
+          position: 'absolute',
+          zIndex: '2',
+          marginLeft: '1550px',
+          top: '330px',
+        }}
+      >
+        <Box p="7" bg="#215732">
+          <img
+            src="buttom.png"
+            alt="logo"
+            style={{
+              paddingRight: '20px',
+              paddingLeft: '20px',
+              paddingTop: '5px',
+              paddingBottom: '5px',
+            }}
+          ></img>
+        </Box>
+      </Flex>
+      <img
+        src="hal1.png"
+        alt="gambar"
+        style={{
+          zIndex: '1',
+          padding: '0',
+          width: '99%',
+          paddingLeft: '50px',
+          top: '8px',
+          letterSpacing: '7px',
+          position: 'absolute',
+        }}
+      ></img>
       <Box
-        w="86%"
+        w="87%"
         p={220}
         color="#215732"
         fontSize={65}
         style={{
           marginRight: '60px',
+          top: '100px',
           marginLeft: '120px',
           marginTop: '5px',
           backgroundColor: '#F0EEED',
           fontWeight: '700',
           textAlign: 'center',
           letterSpacing: '7px',
-          zIndex: '999',
         }}
       >
         Juice Farmacy
@@ -116,6 +154,7 @@ export default function BodyHome() {
             fontSize: '19px',
             fontWeight: '600',
             letterSpacing: '2px',
+            zIndex: '2',
           }}
         >
           &copy; 2021 Dark Points Network LTD • Credits • Legals
